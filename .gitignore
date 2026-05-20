@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Reports
+reports/
+
+# Build files
+build/
+dist/
+*.spec
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Database cache
+*.db-journal
