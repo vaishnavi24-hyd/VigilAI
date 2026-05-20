@@ -1,14 +1,10 @@
-# 🧠 NeuroGuard AI: AI-Powered Real-Time Fatigue Monitoring & Behavioral Analytics System
 
-[![Python Version](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
-[![Computer Vision](https://img.shields.io/badge/Computer_Vision-OpenCV-green.svg)](https://opencv.org/)
-[![AI Framework](https://img.shields.io/badge/AI_Framework-MediaPipe-orange.svg)](https://mediapipe.dev/)
-[![Database](https://img.shields.io/badge/Database-SQLite-lightgrey.svg)](https://www.sqlite.org/)
-[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
-NeuroGuard AI is an enterprise-grade, real-time computer vision and behavioral analytics pipeline designed to monitor operator fatigue, optimize workplace safety, and prevent fatigue-induced accidents. By utilizing high-frequency facial landmark tracking, multi-signal confidence engines, and state-machine alert escalation, NeuroGuard AI accurately tracks driver drowsiness, yawning frequency, and micro-sleep markers, automatically generating detailed analytical session dashboards and localized safety insights reports.
+ ---
+ VigilAI is an enterprise-grade, real-time computer vision and behavioral analytics pipeline designed to monitor operator fatigue, optimize workplace safety, and prevent fatigue-induced accidents. By utilizing high-frequency facial landmark tracking, multi-signal confidence engines, and state-machine alert escalation, VigilAI accurately tracks driver drowsiness, yawning frequency, and micro-sleep markers, automatically generating detailed analytical session dashboards and localized safety insights reports.
 
 ---
+
 
 ## 📋 Table of Contents
 1. [Project Overview](#-project-overview)
@@ -36,7 +32,7 @@ NeuroGuard AI is an enterprise-grade, real-time computer vision and behavioral a
 
 In high-stakes industries such as long-haul transport, manufacturing, and software operations, operator fatigue is a primary cause of critical safety incidents. Standard rule-based single-sensor systems suffer from high false-alarm rates and latency. 
 
-**NeuroGuard AI** addresses this limitation by deploying a unified multi-condition sensor fusion framework that processes real-time video streams to calculate:
+**VigilAI** addresses this limitation by deploying a unified multi-condition sensor fusion framework that processes real-time video streams to calculate:
 - Eye Aspect Ratio (EAR) for micro-sleep warning detection.
 - Mouth Aspect Ratio (MAR) to evaluate fatigue yawning markers.
 - Head Pose Estimation (Pitch/Roll Euler angles) to catch nodding-off patterns.
@@ -382,31 +378,7 @@ python deployment/build_app.py
 ```
 This creates a standalone binary wrapper under `dist/NeuroGuardAI`.
 
----
 
-## 🖼️ Screenshots & Demo Placeholders
-
-### 1. Live Monitoring Interface
-*Insert screenshot demonstrating the real-time OpenCV window rendering FaceMesh overlays and HUD stats.*
-
-### 2. Session Summary Dashboard Chart
-*Insert generated reports/dashboard_summary.png showing key metrics table, event counts, and exposure slices.*
-
----
-
-## 🚀 Future Enhancements
-
-- **Infrared Camera Support**: Integrate near-infrared (NIR) camera processing to support night-driving conditions.
-- **Biometric Wearable Syncing**: Connect heart rate variability (HRV) metrics from smartwatches to combine physiological markers with visual tracking.
-- **Mobile Companion Application**: Build a lightweight iOS/Android dashboard companion app.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## ✍️ Author
 - **Developer**: Vaishnavi Guttapally
